@@ -1,18 +1,22 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix__img {
   width: 100%;
 }
+
 .matrix,
 .matrix__info-link {
   font-family: fantasy, cursive;
@@ -25,11 +29,13 @@ body {
   }
 
 }
+
 .todo {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo__new-task-input,
 .todo__label-task,
 .todo__task-input {   
@@ -37,22 +43,27 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo__task-block {
   display: flex;
 }
+
 .todo__list {
   margin: 0;
   padding: 0px;
 }
+
 li, 
 h3 {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
-.todo__new-task-input,
+
+.todo__new-task-btn,
 .todo__edit-btn,
 .todo__remove-btn {
   background: none;
@@ -63,11 +74,13 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.todo__new-task-input:hover,
+
+.todo__new-task-btn:hover,
 .todo__edit-btn:hover,
 .todo__remove-btn:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .todo__title {
   color: #333;
@@ -78,6 +91,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo__new-task-input,
 .todo__task-input {
   margin: 0;
@@ -91,6 +105,7 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .todo__new-task-input:focus,
 .todo__task-input:focus {
   color: #333;
@@ -119,6 +134,7 @@ button {
 .todo__checkbox {
   margin: 0 10px;
 }
+
 .todo__label-task {
   padding-left: 10px;
   box-sizing: border-box;
@@ -131,6 +147,7 @@ button {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .todo__remove-btn-icon:hover {
   transform: rotateZ(0);
 }
