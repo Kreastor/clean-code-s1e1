@@ -19,9 +19,10 @@ body {
 
 @media (max-width:768px) {
 
-.matrix-img-container { 
-  text-align: center;
-}
+  .matrix-img-container { 
+    text-align: center;
+  }
+  
 }
 .todo-container {
   display: block;
